@@ -1,10 +1,11 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "../styles/App.css";
 
 import { Route, Switch, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Error from "./Error";
+// import { useHistory } from "react-router-dom";
 class App extends Component {
   render() {
     return (
