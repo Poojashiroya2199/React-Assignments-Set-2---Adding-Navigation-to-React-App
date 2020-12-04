@@ -1,6 +1,10 @@
-// import React from "react";
+import React from "react";
 
-export default function About(props) {
-  props.history.push("/about");
-  return "You are on the about page";
+export default function About() {
+  return (
+    <>
+      {" "}
+      <h1>You are on the about page</h1>{" "}
+    </>
+  );
 }

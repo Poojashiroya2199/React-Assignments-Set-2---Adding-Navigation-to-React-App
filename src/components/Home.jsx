@@ -1,6 +1,10 @@
-// import React from "react";
+import React from "react";
 
-export default function Home(props) {
-  props.history.push("/home");
-  return "You are home";
+export default function Home() {
+  return (
+    <>
+      {" "}
+      <h1>You are home</h1>{" "}
+    </>
+  );
 }
